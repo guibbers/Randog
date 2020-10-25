@@ -1,0 +1,107 @@
+:root {
+   --primary-color: #f7c7a1;
+   --secondary-color: #e59b7b;
+}
+
+* {
+   border: none;
+   font-family: 'Roboto', sans-serif;
+   padding: none;
+}
+
+body {
+   align-items: center;
+   background-color: var(--primary-color);
+   background-image: linear-gradient(to right, var(--primary-color), var(--secondary-color));
+   display: flex;
+   font-size: 1.2em;
+   flex-direction: column;
+   justify-content: center;
+}
+
+header {
+   align-items: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   margin-top: 100px;
+}
+
+header img {
+   width: 210px;
+}
+
+main {
+   align-items: center;
+   background-color: azure;
+   border-radius: 8px;
+   box-shadow: 5px 5px 5px 5px grey;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   margin-top: 50px;
+   padding: 40px;
+   width: 40%;
+}
+
+section#container {
+   display: flex;
+   font-weight: bold;
+   align-items: center;
+   flex-direction: column;
+}
+
+section#container button{
+   border: 1px solid black;
+   width: 30%;
+   cursor: pointer;
+}
+
+section#container button:active {
+   background-color: #f7f7f7;   
+}
+
+#dog {
+   text-align: center;   
+   
+}
+
+img#img_dog {
+   margin-top: 30px;
+   width: 90%;
+   height: 90%;
+}
+
+footer {
+   align-items: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   padding: 10px;
+}
+
+a {
+   color: #5ba37f;
+   font-weight: 700;
+   margin: 5px;
+   margin-left: 5px;
+   text-decoration: none;
+}
+
+a:hover{
+   text-decoration: underline;
+}
+
+a:visited{
+   color: #5ba37f;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.hidden {
+   display: none;
+}
